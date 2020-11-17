@@ -6,7 +6,7 @@ header{
 	padding: auto;
 	text-align: center;
 	color:#ed6707 ;
-	background: url(sprouts.jpg) no-repeat center;
+	background: url(/sprouts.jpg) no-repeat center;
   	background-size: cover;
   	height: 200px;
   	position: relative;
