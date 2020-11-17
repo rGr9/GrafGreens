@@ -1,0 +1,176 @@
+* {
+	box-sizing: border-box;
+}
+header{
+
+	padding: auto;
+	text-align: center;
+	color:#ed6707 ;
+	background: url("./images/sprouts.jpg") no-repeat center;
+  	background-size: cover;
+  	height: 200px;
+  	position: relative;
+  	z-index: -1;
+}
+div.transbox {
+  margin: 50px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+  z-index: -1;
+  text-align: center;
+  
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  
+  
+}
+header h1{
+	font-size: 40px;
+}
+nav{
+	overflow: hidden;
+	background-color: green;
+	z-index: 1;
+}
+nav a{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+nav a:hover{
+	background-color: #111;
+}
+body {
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  nav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+/*
+div.transbox {
+  margin: 100px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}*/
+
+
+
+
+
+
+
+/*
+div.background {
+  background: url("./images/sprouts.jpg") no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}*/
+
+
+
+/*
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}*/
